@@ -22,29 +22,25 @@ padding: 6em 0 1em 0;
 position: relative;
   margin: 0;
   padding: 0;
-  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  height:25px;
+  width: 50px;
+  font-size: 14px;
 }
 
 
-header p {
+header a {
   font-family: "Roboto Slab", serif;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.075em;
   margin-top: -0.5em;
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+  color:white;
+  font-decoration:none;}
 
-header.major > :last-child {
-  border-bottom: solid 3px #f56a6a;
-  display: inline-block;
-  margin: 0 0 2em 0;
-  padding: 0 0.75em 0.5em 0; }
-
-header.main > :last-child {
-  margin: 0 0 1em 0; }
 
 .keys {
   display: flex;
