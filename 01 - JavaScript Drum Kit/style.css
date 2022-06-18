@@ -1,7 +1,8 @@
 html {
   font-size: 10px;
-  background: url('https://peayah.github.io/JavaScriptApps/01%20-%20JavaScript%20Drum%20Kit/drums.jpeg') bottom center;
+  background: url('https://peayah.github.io/JavaScriptApps/01%20-%20JavaScript%20Drum%20Kit/drums.jpeg') top center;
   background-size: cover;
+  height:100%;
 }
 
 body,html {
