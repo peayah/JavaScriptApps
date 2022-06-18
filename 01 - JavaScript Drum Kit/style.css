@@ -48,7 +48,7 @@ header.main > :last-child {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 30vh;
   align-items: center;
   justify-content: center;
 }
