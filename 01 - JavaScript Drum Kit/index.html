@@ -71,7 +71,8 @@ TOTALLY
 	});
 	
 	function removeTransition(e) {
-		console.log(e)
+		if e.propertyName !== "transform") return
+	}
 const keys = document.querySelectorAll(".key");
 keys.forEach(key => key.addEventListener('transitionend', removeTransition ));	
 </script>
